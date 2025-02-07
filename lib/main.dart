@@ -7,6 +7,7 @@ import 'package:skincare_track/src/features/routine/bloc/bloc/routine_bloc.dart'
 import 'package:skincare_track/src/features/routine/camera/bloc/bloc/camera_bloc.dart';
 
 
+
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
@@ -36,6 +37,7 @@ class MyApp extends StatelessWidget {
       ],
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
+
         home:  BottomNavigationScreen(),
       ),
     );

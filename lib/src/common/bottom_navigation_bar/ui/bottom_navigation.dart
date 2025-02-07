@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:skincare_track/image_assets.dart';
+import 'package:skincare_track/src/utils/image_assets.dart';
 import 'package:skincare_track/src/common/bottom_navigation_bar/bloc/bloc/bottom_navigation_bloc.dart';
 import 'package:skincare_track/src/features/routine/ui/routine_screen.dart';
 import 'package:skincare_track/src/features/streak/ui/streak_screen.dart';
